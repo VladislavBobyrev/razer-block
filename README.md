@@ -24,7 +24,7 @@ Cтильный угловой блок
 - этот репозиторий
 
 ```
-git clone https://github.com/VladislavBobyrev/
+git clone https://github.com/VladislavBobyrev/razer-block
 ```
 
 <!-- - node.js
