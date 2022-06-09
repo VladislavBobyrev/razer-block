@@ -1,0 +1,28 @@
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.content {
+  width: calc(50% - 32.5px);
+  background: rgb(0, 0, 0, 0.99);
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}
+.image-box {
+  box-sizing: border-box;
+  width: calc(50% + 32.5px);
+  background: url(../../../favicon.ico) 0 0 / 3rem 3rem $bg-secondary;
+  border-left: 8rem solid rgb(0, 0, 0, 0.99);
+  border-bottom: 100vh solid transparent;
+}
